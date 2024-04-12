@@ -1,4 +1,4 @@
-## Understanding Unique Information in Your Research Documents
+## Highlighting Unique Information in Your Research Documents
 
 This program helps analyze a collection of PDF documents and identify those containing the most unique information. It uses a technique called Term Frequency-Inverse Document Frequency (TF-IDF) to achieve this.
 
