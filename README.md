@@ -81,9 +81,4 @@ This project requires Python libraries and some setup steps. Here's a detailed g
 
 * This code might take a while to run depending on the number of PDFs you have. 
 * The output will display the top N most unique PDFs (adjust N in the code) based on their TF-IDF scores.
-
-## Additional Information
-
-* This guide provides a basic setup process. If you encounter any issues during installation or have more questions about Python, refer to the official Python documentation ([https://docs.python.org/](https://docs.python.org/)) for further guidance.
-* This is a command-line based approach. If you're new to coding or prefer a more user-friendly interface, consider using a graphical user interface (GUI) for Python like Spyder or PyCharm. These tools can simplify running Python scripts and provide additional functionalities.
-
+* Include a folder of the pdfs, as downloaded from Zotero. Currently, the file structure is such that there is a main "files" folder, with subfolders which contain PDFs. Update the 
