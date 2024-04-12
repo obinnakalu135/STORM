@@ -11,6 +11,19 @@ Imagine each document as a conversation. TF-IDF considers words like "the" or "a
 
 By combining these scores (TF x IDF), TF-IDF helps identify documents that use specific vocabulary not found elsewhere in your collection. These documents are likely to contain the most unique and relevant information for your research.
 
+## What the Script Does
+
+This Python script helps you analyze a collection of PDFs to find the ones with the most unique content. It uses a technique called Term Frequency-Inverse Document Frequency (TF-IDF). Here's a simplified breakdown of the steps:
+
+1. **PDF Processing:** The script extracts text from your PDFs and performs basic cleaning.
+
+2. **Building the Vocabulary:** It iterates through all PDFs, building a dictionary of unique words encountered across your collection.
+
+3. **TF-IDF Analysis:** TF-IDF considers how often a word appears within a document (TF) and how rare it is across your entire collection (IDF). The script calculates these scores for each word.
+
+4. **Identifying Unique PDFs:** Finally, it assigns a TF-IDF score to each PDF based on the combined scores of its unique words. PDFs with higher scores likely contain more unique information relevant to your research.
+
+
 ## Using the Code (Mac and Windows)
 
 This project requires Python libraries and some setup steps. Here's a detailed guide for Mac and Windows users.
