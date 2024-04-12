@@ -81,4 +81,4 @@ This project requires Python libraries and some setup steps. Here's a detailed g
 
 * This code might take a while to run depending on the number of PDFs you have. 
 * The output will display the top N most unique PDFs (adjust N in the code) based on their TF-IDF scores.
-* Include a folder of the pdfs, as downloaded from Zotero. Currently, the file structure is such that there is a main "files" folder, with subfolders which contain PDFs. Update the 
+* Include a folder of the pdfs, as downloaded from Zotero. Currently, the file structure is such that there is a main "files" folder, with subfolders which contain PDFs.
