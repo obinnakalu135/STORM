@@ -13,8 +13,7 @@ By combining these scores (TF x IDF), TF-IDF helps identify documents that use s
 
 ## Using the Code (Mac and Windows)
 
-This project requires Python libraries and some setup steps. Here's a detailed guide for Mac and Windows users, without assuming any prior knowledge of tools like conda or miniconda.
-
+This project requires Python libraries and some setup steps. Here's a detailed guide for Mac and Windows users.
 **Mac and Windows (Using Python)**
 
 1. **Download and Install Python:**
